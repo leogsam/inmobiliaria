@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00d4ff;
+  background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, rgba(57, 179, 81, 0.572164) 45%, #149532 100%); }
+  body h1 {
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    text-decoration: underline; }
+  body h2 {
+    font-family: sans-serif; }
+  body h3 {
+    font-size: 18px; }
+  body h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none; }
+
+section div {
+  display: inline-block; }
+
+/*Da estilo a "animacion1" en todo el sitio*/
+.animacion11 {
+  margin-top: 30px; }
+
+/*Da estilo a iconos de redes sociales en todo el sitio*/
+.iconos {
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+/*Animacion del Logo*/
+.animate__bounceIn {
+  animation: bounceIN;
+  animation-duration: 2ms;
+  animation-iteration-count: initial; }
+
+/*Da margen al logo en todas las paginas*/
+#logo {
+  margin-left: 100px; }
+
+/*Da estilo a Footer en todas las paginas*/
+#pie {
+  text-align: center;
+  height: 30px;
+  background-color: grey;
+  width: 100%; }
+
+/*Da estilo al formulario de contacto en "Contacto"*/
+.contacto {
+  margin: auto; }
+
+/*Da estilo al div que informa los datos de oficina, telefono y horarios*/
+#datos {
+  width: 100%; }
+
+/*Da estilo a texto en nosotros*/
+.texto {
+  border: solid 3px;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 60px; }
+
+/*Da estilos a lista de propiedades*/
+.prop {
+  padding: 15px;
+  margin-left: 150px; }
+
+.inmueble {
+  text-decoration: none; }

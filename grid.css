@@ -1,0 +1,89 @@
+/*Establece grid en Home*/
+.grid{
+	display: grid;
+	grid-template-areas: 
+	"logo logo logo logo"
+	"venta venta venta venta"
+	"clientes clientes clientes clientes"
+	"oficina oficina oficina oficina"
+	"pie pie pie pie";
+	grid-template-rows: 3fr auto 15fr 10fr 5fr;
+	grid-template-columns: auto auto auto auto;
+	height: 100vh;
+
+}
+.logo{
+	grid-area: logo;
+}
+.venta{
+	grid-area: venta;
+}
+.clientes{
+	grid-area: clientes;
+}
+.oficina{
+	grid-area: oficina;
+	background-color: black;
+}
+.pie{
+	grid-area: pie;
+}
+/*Establece grid en Nosotros*/
+.grid1{
+	display: grid;
+	grid-template-areas: 
+	"logo logo logo logo"
+	"nosotros nosotros nosotros nosotros"
+	"oficina oficina oficina oficina"
+	"pie pie pie pie";
+	grid-template-rows: 3fr auto 15fr 10fr 5fr;
+	grid-template-columns: auto auto auto auto;
+	height: 100vh;
+
+}
+.logo{
+	grid-area: logo;
+}
+.venta{
+	grid-area: venta;
+}
+.nosotros{
+	grid-area: nosotros;
+}
+.oficina{
+	grid-area: oficina;
+	background-color: black;
+}
+.pie{
+	grid-area: pie;
+}
+/*Establece grid en Contacto*/
+.grid2{
+	display: grid;
+	grid-template-areas: 
+	"logo logo logo logo"
+	"formulario formulario formulario formulario"
+	"texto texto texto texto"
+	"oficina oficina oficina oficina"
+	"pie pie pie pie";
+	grid-template-rows: 3fr auto auto 10fr 5fr;
+	grid-template-columns: auto auto auto auto;
+	height: 100vh;
+
+}
+.logo{
+	grid-area: logo;
+}
+.formulario{
+	grid-area: formulario;
+}
+.texto{
+	grid-area: texto;
+}
+.oficina{
+	grid-area: oficina;
+	background-color: black;
+}
+.pie{
+	grid-area: pie;
+}

@@ -1,0 +1,20 @@
+/*Da estilo a "animacion1" en todo el sitio*/
+.animacion11{
+	margin-top: 30px;
+}
+/*Da estilo a iconos de redes sociales en todo el sitio*/
+.iconos{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+/*Animacion del Logo*/
+.animate__bounceIn{
+	animation: bounceIN;
+	animation-duration: 2ms;
+	animation-iteration-count: initial;
+}
+/*Da margen al logo en todas las paginas*/
+#logo{
+	margin-left: 100px;
+}
